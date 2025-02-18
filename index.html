@@ -6,7 +6,7 @@
     <title>Metaverse</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
-    <script defer src="main.js" module></script>
+    <script src="main.js" module></script>
 </head>
 <body>
     <div class="overlay"></div>
@@ -25,9 +25,41 @@
             <a href="#" class="tab-button" data-tab="contact">CONTACT</a>
         </div>
     </div>
-    <div id="tab" class="tab">
-        <p>Tab content goes here</p>
-        <button class="close-tab">X</button>
+    
+    <div id="tab-container">
+        <div class="tab" id="intro">
+            <button class="close-tab">X</button>
+            <h2>INTRO</h2>
+            <video controls>
+                <source src="resources/tab-1.mp4" type="Intro">
+            </video>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ad ipsa sequi explicabo fugit animi, sunt veniam consectetur facilis harum commodi nam. Dolorem, id quibusdam? Laudantium libero quisquam odit eveniet?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nihil culpa, quas vitae sit, eius, sunt non inventore quae dolore optio consequuntur rem iusto laboriosam? Nihil, minima sunt? Voluptatum, similique!</p>
+        </div>
+
+        <div class="tab" id="work">
+            <button class="close-tab">X</button>
+            <h2>WORK</h2>
+            <img src="resources/tab-2.jpg" alt="Work">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptate dicta ullam, vel in facere quod sequi quam ipsam vero magnam architecto mollitia. Ullam, incidunt sint suscipit voluptatem temporibus molestiae.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore laborum similique perspiciatis commodi, repellat laudantium id inventore voluptatum, iure illo ea provident ratione quaerat adipisci ut quas architecto rem molestias!</p>
+        </div>
+        
+        <div class="tab" id="about">
+            <button class="close-tab">X</button>
+            <h2>ABOUT</h2>
+            <img src="resources/tab-3.jpg" alt="About">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tenetur, molestiae quasi a quis debitis reprehenderit reiciendis, incidunt quod quia officia modi atque numquam quae inventore nulla sequi velit dolorum.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aliquam, id quia doloribus repellat, omnis ad aliquid quisquam, error nam doloremque. Totam dolorum enim quod officia fuga. Quasi, blanditiis nisi.</p>
+        </div>
+        
+        <div class="tab" id="contact">
+            <button class="close-tab">X</button>
+            <h2>CONTACT</h2>
+            <img src="resources/tab-4.jpg" alt="Concats">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim impedit, iusto saepe eligendi nesciunt sed temporibus excepturi neque velit eum ullam a sint cum reprehenderit officiis assumenda culpa fuga explicabo.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nostrum unde voluptatum exercitationem sit cumque animi minus blanditiis odit voluptatem maiores, quae fuga explicabo cum distinctio. Ipsum quas tempore eos.</p>
+        </div>
     </div>
 </body>
 </html>

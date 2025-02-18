@@ -1,27 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./main.css">
-    <script src="./main.js" type="module"></script>
-    <title>GitHub</title>
+    <title>Metaverse</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <script defer src="main.js" module></script>
 </head>
 <body>
-    <header></header>
-    <main>
-        <div class="container">
-            <div class="logo"></div>
-            <h1>METAVERSE</h1>
-            <p>INNOVATION THAT WILL SHAPE HOW WE CONNECT IN THE WORLD AN OPPORTUNITY FOR EVERYBODY.</p>
-            <div class="buttons">
-                <a href="#">INTRO</a>
-                <a href="#">WORK</a>
-                <a href="#">ABOUT</a>
-                <a href="#">CONTACT</a>
-            </div>
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="diamond-container">
+            <span class="diamond"></span>
         </div>
-    </main>
-    <footer></footer>
+        <div class="line"></div>
+        <h1>METAVERSE</h1>
+        <p>INNOVATION THAT WILL SHAPE HOW WE <a href="#">CONNECT</a> IN THE WORLD AN <a href="#">OPPORTUNITY</a> FOR EVERYBODY.</p>
+        <div class="line"></div>
+        <div class="buttons">
+            <a href="#" class="tab-button" data-tab="intro">INTRO</a>
+            <a href="#" class="tab-button" data-tab="work">WORK</a>
+            <a href="#" class="tab-button" data-tab="about">ABOUT</a>
+            <a href="#" class="tab-button" data-tab="contact">CONTACT</a>
+        </div>
+    </div>
+    <div id="tab" class="tab">
+        <p>Tab content goes here</p>
+        <button class="close-tab">X</button>
+    </div>
 </body>
 </html>
